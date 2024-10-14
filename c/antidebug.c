@@ -25,5 +25,11 @@ int main() {
   }
 
   printf("continue execution for pid`: %d\n", getpid());
+
+  // wait for 10 seconds before exit
+  sleep(10);
+
+  printf("exit child process from pid: %d\n", getpid());
+
   return 0;
 }
