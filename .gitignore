@@ -1,3 +1,2 @@
-c/build
-swift/build
-swift/.build
+**/build
+**/.build
